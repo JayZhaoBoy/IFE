@@ -1,0 +1,67 @@
+h1 {
+    color: white;
+    background-color: grey;
+    margin: 0px;
+    padding: 20px;
+}
+
+h2 {
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#s, #c, #p, #e, #j{
+    clear: both;
+    height: 150px;
+    border: solid grey 1px;
+}
+
+#sm_h2_div, #cn_h2_div, #edu_h2_div, #pro_h2_div, #pw_h2_div{
+    width: 130px;
+    height: 150px;
+    float: left;
+    background-color: lightgrey;
+    position: relative;
+}
+
+#simpleMsg, #connectMsg, #powerDes, #edu, #project{
+    padding-left: 150px;
+}
+
+#powerDes, #edu, #project{
+    padding-top: 20px;
+}
+
+#connectMsg p {
+    width: auto;
+    float: left;
+    margin-left: 50px;
+}
+
+#simpleMsg p {
+    width: auto;
+    float: left;
+    margin-left: 50px;
+}
+
+#powerDes p {
+    margin: 0px;
+}
+
+#edu p {
+    margin: 0px;
+}
+
+#project p {
+    margin: 0px;
+}
+
+#tec, #bk, #comprehensive, #yjs, #xd, #san {
+    float: left;
+}

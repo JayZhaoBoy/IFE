@@ -1,0 +1,52 @@
+h1{
+    float: left;
+    color: white;
+    background-color: cornflowerblue;
+    padding-left: 20px;
+    width: 80px;
+    height: 700px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+
+#msg{
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 110px;
+}
+
+#connectMsg p {
+    width: auto;
+    float: left;
+    margin-left: 50px;
+}
+
+#simpleMsg p {
+    width: auto;
+    float: left;
+    margin-left: 50px;
+}
+
+#powerDes p {
+    margin: 0px;
+}
+
+#edu p {
+    margin: 0px;
+}
+
+#project p {
+    margin: 0px;
+}
+
+#tec, #bk, #comprehensive, #yjs, #xd, #san {
+    padding-top: 20px;
+}
+
+#powerDes, #edu, #project {
+    padding-bottom: 20px;
+}
+
