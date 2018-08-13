@@ -1,0 +1,12 @@
+.left {
+    height: 200px;
+    width: 300px;
+    float: right;
+    background: cornflowerblue;
+}
+
+.right {
+    background: red;
+    height: 200px;
+}
+

@@ -1,0 +1,17 @@
+.left {
+    width: 30%;
+    height: 200px;
+    min-width: 200px;
+    background: cornflowerblue;
+}
+
+.right {
+    background: red;
+    height: 200px;
+    width: 70%;
+}
+
+body {
+    display: flex;
+}
+
