@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>IFE ECMAScript</title>
+    <style>
+        img {
+            background-image: url("images/smile.jpg");
+            background-repeat: no-repeat;
+            width: 480px;
+            height: 480px;
+        }
+    </style>
+</head>
+<body>
+
+<img id="img_smile" onclick="start()">
+
+<script>
+    var testImg = document.getElementById("img_smile");
+    var n = 0;
+
+    function start() {
+        if (n == 16) {
+            n = 0;
+        } else {
+            n++;
+        }
+        var y = -(n * 480) + "px";
+        testImg.style.backgroundPosition = "0px " + y;
+        setTimeout("start()", 300);
+    }
+
+</script>
+
+</body>
+</html>
