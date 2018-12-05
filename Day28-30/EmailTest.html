@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        input {
+            margin-left: 50px;
+            margin-top: 10px;
+            width: 200px;
+            height: 20px;
+        }
+
+        ul {
+            margin-left: 50px;
+            list-style-type: none;
+            width: 202px;
+            border: 1px solid lightgrey;
+        }
+
+        li {
+            padding-left: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="content">
+    <input id="email_input" type="text" oninput="getEvent(event)">
+    <ul id="id_email_sug" class="c_email_sug" style="visibility: hidden">
+    </ul>
+</div>
+
+<script>
+    var input = document.getElementById("email_input");
+    var ul = document.getElementById("id_email_sug");
+
+    var postfixList = ['163.com', 'gmail.com', '126.com', 'qq.com', '263.net'];
+
+    for (var i = 0; i < postfixList.length; i++) {
+        var li_child = document.createElement('li');
+        li_child.innerHTML = postfixList[i];
+        ul.appendChild(li_child);
+    }
+
+    function getEvent(e) {
+        var value = input.value;
+        value.trim();
+        if (value.length > 0) {
+            ul.style.visibility = "visible";
+        } else {
+            ul.style.visibility = "hidden";
+        }
+    }
+
+</script>
+
+</body>
+</html>

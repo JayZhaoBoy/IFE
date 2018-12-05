@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<select id="region_object">
+    <option>手机</option>
+    <option>笔记本</option>
+    <option>智能音箱</option>
+</select>
+
+<select id="region_area">
+    <option>华东</option>
+    <option>华南</option>
+    <option>华北</option>
+</select>
+
+<select id="region_month" onchange="change(this.id)">
+    <option>一月</option>
+    <option>二月</option>
+    <option>三月</option>
+    <option>四月</option>
+    <option>五月</option>
+    <option>六月</option>
+    <option>七月</option>
+    <option>八月</option>
+    <option>九月</option>
+    <option>十月</option>
+    <option>十一月</option>
+    <option>十二月</option>
+</select>
+
+<script>
+    function change(v) {
+        console.log(v)
+    }
+</script>
+
+</body>
+</html>
